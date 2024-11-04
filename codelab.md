@@ -7,7 +7,7 @@ status: Published
 
 # Configuración segura de la BIOS en Windows
 
-## 1. Introducción
+## Introducción
 Duration: 0:02:00
 
 En este CodeLab aprenderemos a configurar nuestra BIOS de forma segura en Windows, configurando contraseñas de administración, de usuario o gestionando permisos de arranque entre otras medidas.
@@ -16,7 +16,7 @@ En este CodeLab aprenderemos a configurar nuestra BIOS de forma segura en Window
 
 ¿Estas preparad@ para empezar? ¡Vamos allá!
 
-## 2. Acceso a la BIOS
+## Acceso a la BIOS
 Duration: 00:04:00
 
 Primero deberemos acceder a la BIOS de nuestro ordenador, para ello deberemos tener nuestro equipo apagado. A continuación lo encenderemos e inmediatamente comenzaremos a pulsar una tecla, cada sistema utiliza una distinta pero las más comunes son F10, F2, F12, F1 o SUPR. Posiblemente este paso no salga a la primera así que, ¡ten paciencia!.
@@ -27,7 +27,7 @@ Una vez hayamos conseguido acceder a la BIOS nos aparecerá una pantalla similar
 
 A continuación comenzaremos con la configuración. ¡Vamos a empezar!
 
-## 3. Contraseña de administrador
+## Contraseña de administrador
 Duration: 00:05:00
 
 Para comenzar con la configuración de la BIOS designaremos una contraseña de administración, la cual se solicitará para modificar parámetros de la BIOS una vez esté activada. Para activarla accederemos al panel de "Securiry", donde elegiremos la opción "Administrator Password".
@@ -40,7 +40,7 @@ Nos aparecerá la siguiente pantalla en la que tendremos que poner nuestra nueva
 
 Poco a poco vamos teniendo nuestra BIOS más segura, ¡vamos a seguir!.
 
-## 4. Contraseña de usuario
+## Contraseña de usuario
 Duration: 00:05:00
 
 A continuación vamos a designar una contraseña de usuario, la cual tiene un funcionamiento similar a la de administrador ya que nos la solicitarán para modificar algunos parámetros básicos de la BIOS. Para ello, desde la pantalla de "Security" elegiremos la opción "User Password". 
@@ -53,7 +53,7 @@ Veremos una pantalla similar a la de la contraseña de administrador en la que t
 
 Ya tendremos las contraseñas preparadas, continuemos.
 
-## 5. Contraseña de arranque
+## Contraseña de arranque
 Duration: 00:03:00
 
 En este apartado vamos a configurar la contraseña de arranque, la cual se nos pedirá cada vez que encendamos el disositivo. Para ello accederemos de nuevo a la pantalla "Security" y elegiremos la opción "Password Check" que por defecto estará en "Setup".
@@ -66,7 +66,7 @@ Una vez ahí cambiaremos la opción a "Always" para que cada vez que encendamos 
 
 En el siguiente paso veremos algunos permisos.
 
-## 6. Permiso para el arranque desde USB
+## Permiso para el arranque desde USB
 Duration: 00:03:00
 
 Si queremos controlar el arranque de nuestro ordenador para que no pueda realizarse desde un USB este apartado es primordial.
@@ -77,7 +77,7 @@ Una vez ahí, las opciones que vemos señaladas en la siguiente imagen deberemos
 
 ¡Continuemos!
 
-## 7. Orden de arranque
+## Orden de arranque
 Duration: 00:07:00
 
 Con esta configuración podremos manejar el orden de arranque de nuestro ordenador, en el que irá buscando los dispositivos indicados en orden para intentar arrancar el sistema, pasando al siguiente si uno no lo encuentra.
@@ -87,7 +87,7 @@ Para configurar esto, accederemos al menú "Boot", y en el apartado "FIXED BOOT 
 
 Ya falta poco para terminar la configuración, ¡vamos allá!.
 
-## 8. Secure Boot
+## Secure Boot
 Duration: 00:07:00
 
 El arranque seguro fue introducido por Microsoft a partir de Windows 8 en el que prohíbe el arranque de cualquier otra cosa que no sea Windows aunque algunas distribuciones de Linux se han adaptado para que la ejecución pueda realizarse. 
@@ -101,7 +101,7 @@ Una vez ahí activaremos la opción de "Secure Boot".
 
 Sólo falta el último paso, ¡vamos a ello!.
 
-## 9. Trusted computing
+## Trusted computing
 Duration: 00:04:00
 
 Finalmente activaremos el TPM del ordenador, que es un chip que viene instalado en la placa base del ordenador, el cual almacena las claves de cifrado de Windows para proteger la privacidad de archivos sensibles. 
