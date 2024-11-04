@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-11-04T14:13:07+01:00",
+  "id": "1",
+  "duration": 40,
+  "title": "Configuración segura de la BIOS en Windows",
+  "summary": "Codelab en el que se explica paso a paso cóm bastionar la BIOS en Windows",
+  "source": "codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "bios",
+    "windows"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "1"
+}
